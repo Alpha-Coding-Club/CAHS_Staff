@@ -1,0 +1,215 @@
+body {
+    color: #fc7978;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 200%;
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+}
+
+.arrows path {
+    stroke: #fc7978;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow
+
+    {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+h1 {
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 0 auto 0 auto;
+    color: #ff4949;
+    font-family: 'Nexa';
+}
+
+h2 {
+    font-family: 'Nexa';
+
+}
+.mathpadding{
+    margin-top:0px;
+    padding-top: 3.25rem;
+}
+h3 {
+    line-height: 0rem;
+    font-size: 90%;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-size: 60%;
+    margin-bottom: 0rem;
+}
+
+i {
+    height: 5rem;
+}
+a{
+    color: #fc7978;
+}
+
+.top-container {
+    background-image: url("https://images3.alphacoders.com/101/1012111.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.math-container {
+    text-align: center;
+background-color: #d9ffd9;
+
+}
+
+.science-container {
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #fff2fd;
+}
+
+.english-container{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #d9ffd9;
+}
+.spanish-container{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #fff2fd;
+}
+.elective-container{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #fff2fd;
+}
+
+.history-container{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #d9ffd9;
+}
+.academic-container{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #d9ffd9;
+}
+.collegeprep-container{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #fff2fd;
+}
+img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa Bold.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.four-members {
+    transition: .8s cubic-bezier(.2, .8, .2, 1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 20px;
+    margin-left: 20px;
+    min-width: 240px;
+}
+.three-members {
+    transition: .8s cubic-bezier(.2, .8, .2, 1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 20px;
+    margin-left: 20px;
+    min-width: 240px;
+}
+.two-members {
+    transition: .8s cubic-bezier(.2, .8, .2, 1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 20px;
+    margin-left: 20px;
+    min-width: 240px;
+}
+.one-members {
+    transition: .8s cubic-bezier(.2, .8, .2, 1);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 20px;
+    margin-left: 20px;
+    min-width: 240px;
+}
